@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Gayatri P. - Web Developer</title>
-  <link rel="stylesheet" href="sty.css">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Merriweather', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #444;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .nav-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-links li a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #dfe9f3, #ffffff);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .skills-list, .contact-links, .project-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skills-list li, .contact-links li, .project-list li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .skills-list li::before, .project-list li::before, .contact-links li::before {
+      content: '\2022';
+      position: absolute;
+      left: 0;
+      color: #444;
+    }
+
+    .not-found {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .not-found h1 {
+      font-size: 6rem;
+      margin-bottom: 10px;
+      color: #d32f2f;
+    }
+
+    .not-found a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background: #444;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -44,33 +153,38 @@
         <li>Git - Intermediate</li>
       </ul>
     </section>
-<section id="projects">
-  <h2>Projects</h2>
-  <ul class="project-list">
-    <li>
-      <strong>Smart Shoes for the Blind-Website</strong><br>
-      A mini project developed for the subject on Engineering Entrepreneurship and IPR.<br>
-      <a href="https://oggy-crypto-cmd.github.io/project1/" target="_blank">View Project</a> | 
-      <a href="https://github.com/oggy-crypto-cmd/project1" target="_blank">GitHub Repo</a>
-    </li>
-  </ul>
-</section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li>
+          <strong>Smart Shoes for the Blind - Website</strong><br>
+          A mini project developed for the subject on Engineering Entrepreneurship and IPR.<br>
+          <a href="https://oggy-crypto-cmd.github.io/project1/" target="_blank">View Project</a> |
+          <a href="https://github.com/oggy-crypto-cmd/project1" target="_blank">GitHub Repo</a>
+        </li>
+      </ul>
+    </section>
 
     <section id="contact">
       <h2>Contact Me</h2>
       <ul class="contact-links">
-        <li>📧 <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-        <li>💼 <a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-        <li>🔗 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+        <li>📧 <a href="mailto:gayatripradeep25@gmail.com">email</a></li>
+        <li>💼 <a href="https://github.com/oggy-crypto-cmd" target="_blank">GitHub</a></li>
+        <li>🔗 <a href="https://www.linkedin.com/in/gayatri-p-601859351/" target="_blank">LinkedIn</a></li>
         <li>📞 <a href="tel:+911234567890">+91 12345 67890</a></li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025---Gayatri P---All Rights Reserved</p>
+    <p>&copy; 2025 ------ All Rights Reserved</p>
   </footer>
 
-  <script src="spt.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log("Page loaded");
+    });
+  </script>
 </body>
 </html>
