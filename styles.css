@@ -68,18 +68,24 @@ footer {
   width: 100%;
 }
 
-.skills-list, .contact-links, .project-list {
+.skills-list,
+.contact-links,
+.project-list {
   list-style: none;
   padding-left: 0;
 }
 
-.skills-list li, .contact-links li, .project-list li {
+.skills-list li,
+.contact-links li,
+.project-list li {
   margin-bottom: 10px;
   padding-left: 20px;
   position: relative;
 }
 
-.skills-list li::before, .project-list li::before, .contact-links li::before {
+.skills-list li::before,
+.project-list li::before,
+.contact-links li::before {
   content: '\2022';
   position: absolute;
   left: 0;
